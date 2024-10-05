@@ -1,0 +1,81 @@
+body {
+    background-color: #111; 
+    color: #fff; 
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px; 
+    align-items: center;
+}
+
+input {
+    flex: 1; 
+    min-width: 30%;
+    padding: 10px;
+    background-color: #333;
+    border: 1px solid #555; 
+    border-radius: 5px;
+    color: #fff; 
+}
+
+button {
+    width: 7rem; 
+    padding: 10px;
+    background-color: #fff;
+    color: #111; 
+    border: 1px solid #555;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+.success {
+    color: #4dff4d;
+    margin-bottom: 10px;
+}
+
+.error {
+    color: #ff4d4d;
+    margin-bottom: 10px;
+}
+
+#employeeList {
+    margin-top: 20px;
+}
+
+.employee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #222; 
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.employee p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.employee button {
+    padding: 10px 10px;
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.employee button:hover {
+    background-color: #ff1a1a;
+}

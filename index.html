@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adding_Employee</title>
+</head>
+<body>
+    <h2>New Employees</h2>
+
+<!-- Form -->
+    <form id="employeeForm">
+        <input type="text" id="name" placeholder="Enter Name" required><br>
+        <input type="text" id="profession" placeholder="Enter Profession" required><br>
+        <input type="number" id="age" placeholder="Enter Age" required><br>
+        <button type="button" id="addUserBtn">Add User</button>
+    </form>
+
+    <!-- Messages -->
+    <div id="message"></div>
+
+    <!-- Added Employees Section -->
+    <h3>Added Employees</h3>
+    <div id="employeeList">
+        <p>You have 0 employees.</p>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
